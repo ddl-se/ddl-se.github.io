@@ -47,15 +47,20 @@ var timeLeftDescription = function(x) {
 var deadlines = new Array();
 
 deadlines.push({venue: "ICPC 2022", rank: "CCF-B", area: "软件工程/系统软件/程序设计语言", 
-                deadline: new Date(2022, 1 - 1, 13, 23, 59, 59, 0), note: "Research Abstract Submission"});
+                deadline: new Date(2022, 1 - 1, 13, 23, 59, 59, 0), note: "Research Abstract Submission", 
+               url: "https://conf.researchr.org/home/icpc-2022"});
 deadlines.push({venue: "ISSTA 2022", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
-                deadline: new Date(2022, 1 - 1, 28, 23, 59, 59, 0), note: "Technical Papers due"});
+                deadline: new Date(2022, 1 - 1, 28, 23, 59, 59, 0), note: "Technical Papers due", 
+                url: "https://conf.researchr.org/track/icpc-2022/icpc-2022-research"});
 deadlines.push({venue: "ESEC/FSE 2022", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
-                deadline: new Date(2022, 3 - 1, 10, 23, 59, 59, 0), note: "paper registration deadline"});
+                deadline: new Date(2022, 3 - 1, 10, 23, 59, 59, 0), note: "paper registration deadline", 
+                url: "https://2022.esec-fse.org/track/fse-2022-research-papers"});
 deadlines.push({venue: "ASE 2022", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
-                deadline: new Date(2022, 4 - 1, 29, 23, 59, 59, 0), note: "paper registration deadline", approx: 1});
-deadlines.push({venue: "ICSE 2022", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
-                deadline: new Date(2022, 9 - 1, 1, 23, 59, 59, 0), note: "Abstract Submission"});
+                deadline: new Date(2022, 4 - 1, 29, 23, 59, 59, 0), note: "paper registration deadline", 
+                url: "https://conf.researchr.org/home/ase-2022", approx: 1});
+deadlines.push({venue: "ICSE 2023", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
+                deadline: new Date(2022, 9 - 1, 1, 23, 59, 59, 0), note: "Abstract Submission", 
+                url: "https://conf.researchr.org/track/icse-2023/icse-2023-technical-track"});
 
 
 
@@ -85,7 +90,7 @@ function refreshDisplay() {
 
       $("#deadline" + i).html(
         "<div class=\"tld\">" + timeLeftDescription(timeLeft) + "</div>"
-      + "<div class=\"vd\">" + dl.venue + "</div>"
+      + "<div class=\"vd\">" + "<a href=" + dl.url + ">" + dl.venue + "</a>" + "</div>"
       + "<div class=\"ad\">" + dl.area + " (" + dl.rank + ") " + "</div>"
       + "<div class=\"td\"> Deadline:  " + "<font color='#FF0000'>" + timeDescription(dlLocal) + "</font>" + " (" + timeDescription(new Date(dl.deadline.getTime())) + ") " + ".</div>"
       + "<div class=\"td\"> Note:  " +  dl.note + ".</div>"
@@ -115,14 +120,6 @@ $(document).ready(function() {
 
     $(divid).hide();
     $(divid).fadeIn(200*(i+1), function() { }); // create a nice fade in effect
-
-    $(divid).click(function(z) { // Fade in backface and make a giant timer for this event on click
-      // self-executing function hackery :)
-      return function() {
-        backi= z;
-        $("#backface").fadeIn("slow"); // fade in white stuff
-      }
-    }(i));
 
   }
 
