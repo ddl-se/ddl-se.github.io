@@ -46,6 +46,8 @@ var timeLeftDescription = function(x) {
 // Note 2: dates are shifted by 1 for month, as they start at 0. Thanks date object in Javascript!
 var deadlines = new Array();
 
+deadlines.push({venue: "ICPC 2022", rank: "CCF-B", area: "软件工程/系统软件/程序设计语言", 
+                deadline: new Date(2022, 1 - 1, 13, 23, 59, 59, 0), note: "Research Abstract Submission"});
 deadlines.push({venue: "ISSTA 2022", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
                 deadline: new Date(2022, 1 - 1, 28, 23, 59, 59, 0), note: "Technical Papers due"});
 deadlines.push({venue: "ESEC/FSE 2022", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
