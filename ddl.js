@@ -75,7 +75,7 @@ function refreshDisplay() {
       + "<div class=\"ad\">" + dl.area + " (" + dl.rank + ") " + "</div>"
       + "<div class=\"td\"> Deadline:  " + "<font color='#FF0000'>" + timeDescription(dlLocal) + "</font>" + " (" + timeDescription(new Date(dl.deadline.getTime())) + ") " + ".</div>"
       + "<div class=\"td\"> Note:  " +  dl.note + ".</div>"
-      + "<div class=\"td\"> Author Notification:  " + "<font color='#FF0000'>" + timeDescription(dlLocal) + "</font>" + " (" + timeDescription(new Date(dl.notification.getTime())) + ") " + ".</div>"
+      + "<div class=\"td\"> Author Notification:  " + "<font color='#FF0000'>" + timeDescription(notiLocal) + "</font>" + " (" + timeDescription(new Date(dl.notification.getTime())) + ") " + ".</div>"
       + "<div class=\"wd\">" + warningString + "</div>"
       );
     }
