@@ -5,19 +5,19 @@ var deadlines = new Array();
 
 deadlines.push({venue: "ICPC 2022", rank: "CCF-B", area: "软件工程/系统软件/程序设计语言", 
                 deadline: new Date(2022, 1 - 1, 13, 23, 59, 59, 0), note: "Research Abstract Submission", 
-               url: "https://conf.researchr.org/home/icpc-2022"});
+               	notification: new Date(2022, 3 - 1, 8, 23, 59, 59, 0), url: "https://conf.researchr.org/home/icpc-2022"});
 deadlines.push({venue: "ISSTA 2022", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
                 deadline: new Date(2022, 1 - 1, 28, 23, 59, 59, 0), note: "Technical Papers due", 
-                url: "https://conf.researchr.org/home/issta-2022"});
+                notification: new Date(2022, 4 - 1, 11, 23, 59, 59, 0), url: "https://conf.researchr.org/home/issta-2022"});
 deadlines.push({venue: "ESEC/FSE 2022", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
                 deadline: new Date(2022, 3 - 1, 10, 23, 59, 59, 0), note: "paper registration deadline", 
-                url: "https://2022.esec-fse.org/track/fse-2022-research-papers"});
+                notification: new Date(2022, 6 - 1, 14, 23, 59, 59, 0), url: "https://2022.esec-fse.org/track/fse-2022-research-papers"});
 deadlines.push({venue: "ASE 2022", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
                 deadline: new Date(2022, 4 - 1, 29, 23, 59, 59, 0), note: "paper registration deadline", 
-                url: "https://conf.researchr.org/home/ase-2022", approx: 1});
+                notification: new Date(2022, 7 - 1, 20, 23, 59, 59, 0), url: "https://conf.researchr.org/home/ase-2022"});
 deadlines.push({venue: "ICSE 2023", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
                 deadline: new Date(2022, 9 - 1, 1, 23, 59, 59, 0), note: "Abstract Submission", 
-                url: "https://conf.researchr.org/track/icse-2023/icse-2023-technical-track"});
+                notification: new Date(2022, 12 - 1, 9, 23, 59, 59, 0), url: "https://conf.researchr.org/track/icse-2023/icse-2023-technical-track"});
 
 var backi = -1;
 
@@ -64,6 +64,7 @@ function refreshDisplay() {
       // (since the timeline displayed to the user should be listed in their local time)
       // deadline: UTC-12; now: UTC+8    UTC-12    +          12             -  UTC-now
       var dlLocal = new Date(dl.deadline.getTime() + (3600000*utc_bj_offset) - (dc.getTimezoneOffset() * 60000));
+      var notiLocal = new Date(dl.notification.getTime() + (3600000*utc_bj_offset) - (dc.getTimezoneOffset() * 60000));
 
       warningString= "";
       if("approx" in dl) { warningString= "based on previous term!"; }
@@ -74,6 +75,7 @@ function refreshDisplay() {
       + "<div class=\"ad\">" + dl.area + " (" + dl.rank + ") " + "</div>"
       + "<div class=\"td\"> Deadline:  " + "<font color='#FF0000'>" + timeDescription(dlLocal) + "</font>" + " (" + timeDescription(new Date(dl.deadline.getTime())) + ") " + ".</div>"
       + "<div class=\"td\"> Note:  " +  dl.note + ".</div>"
+      + "<div class=\"td\"> Author Notification:  " + "<font color='#FF0000'>" + timeDescription(dlLocal) + "</font>" + " (" + timeDescription(new Date(dl.notification.getTime())) + ") " + ".</div>"
       + "<div class=\"wd\">" + warningString + "</div>"
       );
     }
