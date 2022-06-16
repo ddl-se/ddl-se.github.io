@@ -23,7 +23,7 @@ deadlines.push({venue: "ICSE 2023", rank: "CCF-A", area: "软件工程/系统软
                 notification: new Date(2022, 12 - 1, 9, 23, 59, 59, 0), url: "https://conf.researchr.org/track/icse-2023/icse-2023-technical-track"});
 deadlines.push({venue: "SANER 2023", rank: "CCF-B", area: "软件工程/系统软件/程序设计语言", 
                 deadline: new Date(2022, 10 - 1, 14, 23, 59, 59, 0), note: "Abstract Submission", 
-                notification: new Date(2022, 12 - 1, 16, 23, 59, 59, 0), url: "https://saner2023.must.edu.mo/"});
+                notification: new Date(2022, 12 - 1, 16, 23, 59, 59, 0), url: "https://saner2023.must.edu.mo"});
 
 var backi = -1;
 
