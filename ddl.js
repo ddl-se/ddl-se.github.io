@@ -19,8 +19,11 @@ deadlines.push({venue: "ISSRE 2022", rank: "CCF-B", area: "软件工程/系统�
                 deadline: new Date(2022, 5 - 1, 13, 23, 59, 59, 0), note: "Abstract submission deadline", 
                 notification: new Date(2022, 7 - 1, 29, 23, 59, 59, 0), url: "https://issre2022.github.io/calls_cfp-research.html"});
 deadlines.push({venue: "ICSE 2023", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
-                deadline: new Date(2022, 9 - 1, 1, 23, 59, 59, 0), note: "Abstract Submission", 
+                deadline: new Date(2022, 9 - 1, 1, 23, 59, 59, 0), note: "Submissions Deadline", 
                 notification: new Date(2022, 12 - 1, 9, 23, 59, 59, 0), url: "https://conf.researchr.org/track/icse-2023/icse-2023-technical-track"});
+deadlines.push({venue: "SANER 2023", rank: "CCF-B", area: "软件工程/系统软件/程序设计语言", 
+                deadline: new Date(2022, 10 - 1, 14, 23, 59, 59, 0), note: "Abstract Submission", 
+                notification: new Date(2022, 12 - 1, 16, 23, 59, 59, 0), url: "https://saner2023.must.edu.mo/"});
 
 var backi = -1;
 
