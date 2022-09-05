@@ -3,30 +3,24 @@
 // Note 2: dates are shifted by 1 for month, as they start at 0. Thanks date object in Javascript!
 var deadlines = new Array();
 
-deadlines.push({venue: "ICSE 2023", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
-                deadline: new Date(2022, 9 - 1, 1, 23, 59, 59, 0), note: "Submissions Deadline", 
-                notification: new Date(2022, 12 - 1, 9, 23, 59, 59, 0), url: "https://conf.researchr.org/track/icse-2023/icse-2023-technical-track"});
 deadlines.push({venue: "SANER 2023", rank: "CCF-B", area: "软件工程/系统软件/程序设计语言", 
                 deadline: new Date(2022, 10 - 1, 14, 23, 59, 59, 0), note: "Abstract Submission", 
                 notification: new Date(2022, 12 - 1, 16, 23, 59, 59, 0), url: "https://saner2023.must.edu.mo"});
 deadlines.push({venue: "ISSTA 2023 - First round", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
                 deadline: new Date(2022, 11 - 1, 10, 23, 59, 59, 0), note: "Technical Papers due", 
-                notification: new Date(2023, 1 - 1, 16, 23, 59, 59, 0), url: "https://conf.researchr.org/home/issta-2022"});
+                notification: new Date(2023, 1 - 1, 16, 23, 59, 59, 0), url: "https://conf.researchr.org/home/issta-2023"});
 deadlines.push({venue: "ESEC/FSE 2023", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
                 deadline: new Date(2023, 1 - 1, 26, 23, 59, 59, 0), note: "paper registration deadline", 
-                notification: new Date(2023, 5 - 1, 4, 23, 59, 59, 0), url: "https://2022.esec-fse.org/track/fse-2022-research-papers"});
+                notification: new Date(2023, 5 - 1, 4, 23, 59, 59, 0), url: "https://2023.esec-fse.org/track/fse-2023-research-papers"});
 deadlines.push({venue: "ISSTA 2023 - Second round", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
                 deadline: new Date(2023, 2 - 1, 16, 23, 59, 59, 0), note: "Technical Papers due", 
-                notification: new Date(2023, 5 - 1, 3, 23, 59, 59, 0), url: "https://conf.researchr.org/home/issta-2022"});
+                notification: new Date(2023, 5 - 1, 3, 23, 59, 59, 0), url: "https://conf.researchr.org/home/issta-2023"});
 deadlines.push({venue: "ICSE 2024 - First round", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
                 deadline: new Date(2023, 3 - 1, 29, 23, 59, 59, 0), note: "Submissions Deadline", 
-                notification: new Date(2023, 6 - 1, 2, 23, 59, 59, 0), url: "https://conf.researchr.org/track/icse-2023/icse-2023-technical-track"});
+                notification: new Date(2023, 6 - 1, 2, 23, 59, 59, 0), url: "https://conf.researchr.org/track/icse-2024/icse-2024-technical-track"});
 deadlines.push({venue: "ICSE 2024 - Second round", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
                 deadline: new Date(2023, 8 - 1, 1, 23, 59, 59, 0), note: "Submissions Deadline", 
-                notification: new Date(2023, 10 - 1, 10, 23, 59, 59, 0), url: "https://conf.researchr.org/track/icse-2023/icse-2023-technical-track"});
-deadlines.push({venue: "ICPC 2022", rank: "CCF-B", area: "软件工程/系统软件/程序设计语言", 
-                deadline: new Date(2022, 1 - 1, 13, 23, 59, 59, 0), note: "Research Abstract Submission", 
-               	notification: new Date(2022, 3 - 1, 8, 23, 59, 59, 0), url: "https://conf.researchr.org/home/icpc-2022"});
+                notification: new Date(2023, 10 - 1, 10, 23, 59, 59, 0), url: "https://conf.researchr.org/track/icse-2024/icse-2024-technical-track"});
 deadlines.push({venue: "ASE 2022", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
                 deadline: new Date(2022, 4 - 1, 29, 23, 59, 59, 0), note: "paper registration deadline", 
                 notification: new Date(2022, 7 - 1, 20, 23, 59, 59, 0), url: "https://conf.researchr.org/home/ase-2022"});
