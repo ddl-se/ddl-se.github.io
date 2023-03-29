@@ -6,9 +6,9 @@ var deadlines = new Array();
 deadlines.push({venue: "ASE 2023", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
                 deadline: new Date(2023, 5 - 1, 5, 23, 59, 59, 0), note: "Paper Submission", 
                 notification: new Date(2023, 7 - 1, 17, 23, 59, 59, 0), url: "https://conf.researchr.org/track/ase-2023/ase-2023-papers"});
-deadlines.push({venue: "ACSAC 2023", rank: "CCF-B", area: "安全", 
+deadlines.push({venue: "ACSAC 2023", rank: "CCF-B", area: "网络与信息安全", 
                 deadline: new Date(2023, 5 - 1, 26, 23, 59, 59, 0), note: "Paper Submission", 
-                notification: new Date(2023, 7 - 1, 6, 23, 59, 59, 0), url: "https://www.acsac.org/2023/submissions/papers/"});
+                notification: new Date(2023, 7 - 1, 6, 23, 59, 59, 0), url: "https://www.acsac.org/2023/submissions/papers"});
 deadlines.push({venue: "ICSE 2024 - Second round", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
                 deadline: new Date(2023, 8 - 1, 1, 23, 59, 59, 0), note: "Submissions Deadline", 
                 notification: new Date(2023, 10 - 1, 10, 23, 59, 59, 0), url: "https://conf.researchr.org/track/icse-2024/icse-2024-technical-track"});
