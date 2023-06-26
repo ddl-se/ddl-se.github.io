@@ -10,11 +10,11 @@ deadlines.push({venue: "FSE 2024", rank: "CCF-A", area: "软件工程/系统软�
                 deadline: new Date(2023, 9 - 1, 28, 23, 59, 59, 0), note: "Full paper submission", 
                 notification: new Date(2023, 1 - 1, 23, 23, 59, 59, 0), url: "https://conf.researchr.org/track/fse-2024/fse-2024-research-papers"});
 deadlines.push({venue: "ISSTA 2023 - First round", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
-                deadline: new Date(2022, 11 - 1, 10, 23, 59, 59, 0), note: "Technical Papers due", 
-                notification: new Date(2023, 1 - 1, 16, 23, 59, 59, 0), url: "https://conf.researchr.org/home/issta-2023"});
+                deadline: new Date(2023, 12 - 1, 15, 23, 59, 59, 0), note: "Technical Papers due", 
+                notification: new Date(2024, 3 - 1, 2, 23, 59, 59, 0), url: "https://2024.issta.org/track/issta-2024-papers"});
 deadlines.push({venue: "ISSTA 2023 - Second round", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
-                deadline: new Date(2023, 2 - 1, 16, 23, 59, 59, 0), note: "Technical Papers due", 
-                notification: new Date(2023, 5 - 1, 3, 23, 59, 59, 0), url: "https://conf.researchr.org/home/issta-2023"});
+                deadline: new Date(2024, 4 - 1, 12, 23, 59, 59, 0), note: "Technical Papers due", 
+                notification: new Date(2024, 7 - 1, 3, 23, 59, 59, 0), url: "https://2024.issta.org/track/issta-2024-papers"});
 deadlines.push({venue: "ICSE 2024 - First round", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
                 deadline: new Date(2023, 3 - 1, 29, 23, 59, 59, 0), note: "Submissions Deadline", 
                 notification: new Date(2023, 6 - 1, 2, 23, 59, 59, 0), url: "https://conf.researchr.org/track/icse-2024/icse-2024-technical-track"});
