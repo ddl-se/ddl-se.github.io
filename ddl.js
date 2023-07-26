@@ -9,10 +9,13 @@ deadlines.push({venue: "ICSE 2024 - Second round", rank: "CCF-A", area: "软件�
 deadlines.push({venue: "FSE 2024", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
                 deadline: new Date(2023, 9 - 1, 28, 23, 59, 59, 0), note: "Full paper submission", 
                 notification: new Date(2023, 1 - 1, 23, 23, 59, 59, 0), url: "https://conf.researchr.org/track/fse-2024/fse-2024-research-papers"});
-deadlines.push({venue: "ISSTA 2023 - First round", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
+deadlines.push({venue: "SANER 2024", rank: "CCF-B", area: "软件工程/系统软件/程序设计语言", 
+                deadline: new Date(2023, 10 - 1, 29, 23, 59, 59, 0), note: "Paper Submission", 
+                notification: new Date(2023, 12 - 1, 15, 23, 59, 59, 0), url: "https://conf.researchr.org/track/saner-2024/saner-2024-papers"});
+deadlines.push({venue: "ISSTA 2024 - First round", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
                 deadline: new Date(2023, 12 - 1, 15, 23, 59, 59, 0), note: "Technical Papers due", 
                 notification: new Date(2024, 3 - 1, 2, 23, 59, 59, 0), url: "https://2024.issta.org/track/issta-2024-papers"});
-deadlines.push({venue: "ISSTA 2023 - Second round", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
+deadlines.push({venue: "ISSTA 2024 - Second round", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
                 deadline: new Date(2024, 4 - 1, 12, 23, 59, 59, 0), note: "Technical Papers due", 
                 notification: new Date(2024, 7 - 1, 3, 23, 59, 59, 0), url: "https://2024.issta.org/track/issta-2024-papers"});
 deadlines.push({venue: "ICSE 2024 - First round", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
@@ -21,9 +24,6 @@ deadlines.push({venue: "ICSE 2024 - First round", rank: "CCF-A", area: "软件�
 deadlines.push({venue: "ISSRE 2022", rank: "CCF-B", area: "软件工程/系统软件/程序设计语言", 
                 deadline: new Date(2022, 5 - 1, 13, 23, 59, 59, 0), note: "Abstract submission deadline", 
                 notification: new Date(2022, 7 - 1, 29, 23, 59, 59, 0), url: "https://issre2022.github.io/calls_cfp-research.html"});
-deadlines.push({venue: "SANER 2023", rank: "CCF-B", area: "软件工程/系统软件/程序设计语言", 
-                deadline: new Date(2022, 10 - 1, 14, 23, 59, 59, 0), note: "Abstract Submission", 
-                notification: new Date(2022, 12 - 1, 16, 23, 59, 59, 0), url: "https://saner2023.must.edu.mo"});
 deadlines.push({venue: "ASE 2023", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
                 deadline: new Date(2023, 5 - 1, 5, 23, 59, 59, 0), note: "Paper Submission", 
                 notification: new Date(2023, 7 - 1, 17, 23, 59, 59, 0), url: "https://conf.researchr.org/track/ase-2023/ase-2023-papers"});
