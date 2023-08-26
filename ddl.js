@@ -13,8 +13,8 @@ deadlines.push({venue: "OOPSLA 2024 - First round", rank: "CCF-A", area: "软件
                 deadline: new Date(2023, 10 - 1, 20, 23, 59, 59, 0), note: "Paper Submission", 
                 notification: new Date(2023, 12 - 1, 15, 23, 59, 59, 0), url: "https://2024.splashcon.org/track/splash-2024-oopsla"});
 deadlines.push({venue: "PLDI 2024", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
-                deadline: new Date(2023, 11 - 1, 10, 23, 59, 59, 0), note: "Paper Submission", 
-                notification: new Date(2024, 2 - 1, 15, 23, 59, 59, 0), url: "https://pldi23.sigplan.org/track/pldi-2023-pldi"});
+                deadline: new Date(2023, 11 - 1, 16, 23, 59, 59, 0), note: "Paper Submission", 
+                notification: new Date(2024, 2 - 1, 26, 23, 59, 59, 0), url: "https://pldi24.sigplan.org/"});
 deadlines.push({venue: "ISSTA 2024 - First round", rank: "CCF-A", area: "软件工程/系统软件/程序设计语言", 
                 deadline: new Date(2023, 12 - 1, 15, 23, 59, 59, 0), note: "Technical Papers due", 
                 notification: new Date(2024, 3 - 1, 2, 23, 59, 59, 0), url: "https://2024.issta.org/track/issta-2024-papers"});
