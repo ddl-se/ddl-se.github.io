@@ -28,8 +28,11 @@ deadlines.push(createDeadline("ASE 2024", "CCF-A", "软件工程/系统软件/�
 deadlines.push(createDeadline("ICSE 2025 - Second round", "CCF-A", "软件工程/系统软件/程序设计语言", "2024-8-2", "2024-11-1", 
 			      "Paper Submission", "https://conf.researchr.org/track/icse-2025/icse-2025-research-track"));
 
+deadlines.push(createDeadline("AAAI 2025", "CCF-A", "人工智能", "2024-8-15", "2025-12-9", 
+			      "Paper Submission", "https://aaai.org/conference/aaai/aaai-25/"));
+
 deadlines.push(createDeadline("FSE 2025", "CCF-A", "软件工程/系统软件/程序设计语言", "2024-9-5", "2025-1-14", 
-			      "Paper Submission", "https://conf.researchr.org/track/fse-2025/fse-2025-papers"));
+			      "Paper Submission", "https://conf.researchr.org/track/fse-2025/fse-2025-research-papers"));
 
 deadlines.push(createDeadline("ISSTA 2025", "CCF-A", "软件工程/系统软件/程序设计语言", "2024-10-31", "2024-12-19", 
 			      "Paper Submission", "https://conf.researchr.org/track/issta-2025/issta-2025-papers"));
